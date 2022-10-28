@@ -12,11 +12,9 @@ public class task_2 {
         while(!isSort) {
             isSort = true;
           
-
             for (int i = 0; i < numbers.length-1; i++) {
                 if(numbers[i] > numbers[i+1]){
                     isSort = false;
- 
                     num = numbers[i];
                     numbers[i] = numbers[i+1];
                     numbers[i+1] = num;
@@ -25,11 +23,6 @@ public class task_2 {
             }
         }
         System.out.println(Arrays.toString(numbers));
-
-
-
-
-
         
     }
     
