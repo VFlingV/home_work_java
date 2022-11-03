@@ -4,9 +4,9 @@ import java.util.logging.Logger;
 
 public class task_2 {
     private static final Logger logger = Logger.getLogger(task_2.class.getName());
+    
     public static void main(String [] args) {
-        int [] numbers = {11, 3, 14, 16, 7, 22, 45, 1};
-       
+        int [] numbers = {11, 3, 14, 16, 7, 22, 45, 1};      
         boolean isSort = false;
         int num;
         while(!isSort) {
@@ -21,9 +21,6 @@ public class task_2 {
                     logger.info(Arrays.toString(numbers));
                 }
             }
-        }
-        System.out.println(Arrays.toString(numbers));
-        
-    }
-    
+        }     
+    }  
 }
